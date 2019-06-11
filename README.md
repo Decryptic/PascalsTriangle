@@ -2,6 +2,9 @@
 a home for all scripts Pascal's Triangle
 
 usage
-./PascalsTriangle 1
- 1
-1 1
+```
+./PascalsTriangle 2
+    1
+  1   1
+1   2   1
+```
