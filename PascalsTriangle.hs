@@ -1,8 +1,5 @@
 -- an original implementation of Pascal's triangle
 -- by Gage Swenson (gageswenson@gmail.com)
---
--- sponsored by ItLit
--- https://itlit.io
 -- 
 
 module Main where
