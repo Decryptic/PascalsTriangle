@@ -1,21 +1,21 @@
 # PascalsTriangle
 a home for all scripts Pascal's Triangle
 
-## Build & Run
+## Build
 
-C
+### C
 ```
 gcc PascalsTriangle.c
 ./a.out 2
 ```
 
-Haskell
+### Haskell
 ```
 ghc PascalsTriangle.hs
 ./PascalsTriangle 2
 ```
 
-usage
+## Run
 ```
 ./PascalsTriangle 2
     1
