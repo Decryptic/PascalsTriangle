@@ -35,9 +35,9 @@ main :: IO ()
 main = do
     args <- getArgs
     case args of
-        []     -> putStrLn "argc must be greater than 0"
+        []     -> putStrLn "argc must be greater than 1"
         (x:xs) -> case isInt x of
-            False -> putStrLn "argv[0] must be a positive int"
+            False -> putStrLn "argv[1] must be a positive int"
             True  -> putStr $ pascals (read x :: Int)
     where
     isInt :: String -> Bool
