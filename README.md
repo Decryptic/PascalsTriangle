@@ -1,7 +1,7 @@
 # PascalsTriangle
 a home for all scripts Pascal's Triangle
 
-## Build
+## Build & Run
 
 ### C
 ```
@@ -15,7 +15,7 @@ ghc PascalsTriangle.hs
 ./PascalsTriangle 2
 ```
 
-## Run
+## Usage
 ```
 ./PascalsTriangle 2
     1
