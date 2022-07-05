@@ -15,7 +15,7 @@ ghc PascalsTriangle.hs
 ./PascalsTriangle 2
 ```
 
-## Usage
+## Example
 ```
 ./PascalsTriangle 2
     1
