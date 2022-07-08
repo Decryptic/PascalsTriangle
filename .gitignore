@@ -1,0 +1,9 @@
+# Ignore Haskell object and interface files
+*.o
+*.hi
+
+# Ignore executables
+*.exe
+a.out
+PascalsTriangle
+

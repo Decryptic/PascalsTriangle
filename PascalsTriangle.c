@@ -46,7 +46,7 @@ int **makeTriangle(const int d) {
     return triangle;
 }
 
-void showTriangle(int **triangle, int d) {
+void showTriangle(int **triangle, const int d) {
     for (int i = 0; i < d+1; i++) {
         for (int j = 0; j < d-i; j++)
             printf("\t");
@@ -56,7 +56,7 @@ void showTriangle(int **triangle, int d) {
     }
 }
 
-void freeTriangle(int **triangle, int d) {
+void freeTriangle(int **triangle, const int d) {
     for (int i = 0; i < d+1; i++)
         free(triangle[i]);
     free(triangle);
