@@ -46,7 +46,7 @@ main = do
         | isDigit d = True
         | otherwise = False
     isInt (d:ds)
-        | isDigit d = True && isInt ds
+        | isDigit d = isInt ds
         | otherwise = False
     isDigit :: Char -> Bool
     isDigit = (`elem` "1234567890")
