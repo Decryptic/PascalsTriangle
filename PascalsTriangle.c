@@ -35,12 +35,11 @@ int **makeTriangle(const int d) {
     triangle[1] = malloc(sizeof(int) * 2);
     triangle[1][0] = 1;
     triangle[1][1] = 1;
-    int rowlen = d+1;
-    for (int i = 2; i < rowlen; i++) {
-        triangle[i] = malloc(sizeof(int) * rowlen);
+    for (int i = 2; i < d+1; i++) {
+        triangle[i] = malloc(sizeof(int) * (i+1));
         triangle[i][0] = 1;
-        triangle[i][rowlen - 1] = 1;
-        for (int j = 1; j < rowlen - 1; j++)
+        triangle[i][i] = 1;
+        for (int j = 1; j < i; j++)
             triangle[i][j] = triangle[i-1][j-1] + triangle[i-1][j];
     }
     return triangle;
